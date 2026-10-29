@@ -2,14 +2,14 @@
 #include "../include/Angle.hpp"
 double Angle::solver(double d)
 {
-    double theta = 0.0;
+    double theta;
     if( d <= v0*v0/g)
     {
         theta = asin(d*g/(v0*v0))/2;
     }
     else
     {
-        theta == false;
+        theta = false;
     }
     return theta;
 }
